@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Quote Generator v1.0</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.dwightmckenzie.com"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="qte-cntnr" id="qte-cntnr">
+      <!-- quote -->
+      <div class="qte-txt">
+        <i class="fas fa-quote-left"></i>
+        <span id="qte"></span>
+      </div>
+      <!-- author -->
+      <div class="qte-athr">
+        <span id="athr"></span>
+      </div>
+      <!-- button -->
+      <div class="btn-cntnr">
+        <button class="twttr-btn" id="twttr" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="nw-qte">New Quote</button>
+      </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="lcl-quotes.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
